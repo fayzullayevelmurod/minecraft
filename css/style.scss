@@ -92,6 +92,72 @@ address {
 
 
 
+// expand
+#expand {
+    padding: 150px 0;
+    background-image: url('../images/expend_bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .main_container {
+        display: flex;
+        flex-direction: column;
+        gap: 75px;
+    }
+    .expand_block {
+        @include flex-center();
+        gap: 30px;
+        
+        .expand_block_left {
+            flex: 1;
+        }
+
+        .expand_block_right {
+            flex: 1;
+        }
+    }
+
+    h6 {
+        color: #252525;
+        font-family: $Noto;
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 34px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+    }
+
+    p {
+        color: #252525;
+        font-family: $Noto;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 20px;
+        margin-bottom: 23px;
+    }
+
+    a {
+        @include flex-center();
+        gap: 4px;
+        color: #196D17;
+        font-family: $Noto;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 20px; /* 133.333% */
+        text-transform: uppercase;
+    }
+
+    .expand_block_two {
+        flex-direction: row-reverse;
+    }
+}
+// expand
+
+
+
+
 
 
 @import 'responsive';
