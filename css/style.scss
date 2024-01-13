@@ -90,6 +90,17 @@ address {
 }
 
 
+.main_title {
+    color: #252525;
+    font-family: $Noto;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 34px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
 
 
 // expand
@@ -104,6 +115,7 @@ address {
         flex-direction: column;
         gap: 75px;
     }
+
     .expand_block {
         @include flex-center();
         gap: 30px;
@@ -115,17 +127,6 @@ address {
         .expand_block_right {
             flex: 1;
         }
-    }
-
-    h6 {
-        color: #252525;
-        font-family: $Noto;
-        font-size: 28px;
-        font-weight: 700;
-        line-height: 34px;
-        letter-spacing: 1px;
-        text-transform: uppercase;
-        margin-bottom: 10px;
     }
 
     p {
