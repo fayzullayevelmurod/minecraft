@@ -30,9 +30,12 @@
             </div>
             <div class="header__bottom">
                 <div class="main_container">
+                    <button class="bars">
+                        <img src="./images/icons/bars.svg" alt="">
+                    </button>
                     <ul>
                         <li>
-                            <a href="#">
+                            <a href="#" class="dropdown">
                                 Игры 
                                 <svg width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                                     <rect width="10" height="6" fill="url(#pattern0)"/>
@@ -44,6 +47,32 @@
                                     </defs>
                                 </svg>
                             </a>
+                            <ul class="dropdown_list">
+                                <li>
+                                    <a href="#">
+                                        <img src="./images/icons/link_icon_1.webp" alt="">
+                                        Minecraft
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="./images/icons/link_icon_2.webp" alt="">
+                                        Minecraft Dungeons
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="./images/icons/link_icon_3.webp" alt="">
+                                        Minecraft Legends
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="./images/icons/link_icon_4.webp" alt="">
+                                        Minecraft Education
+                                    </a>
+                                </li>
+                            </ul>
                         </li>
                         <li>
                             <a href="#">
@@ -87,8 +116,226 @@
                     <button class="header_btn open_modal">Получить Minecraft</button>
                 </div>
             </div>
+            <div class="header__mobile">
+                <ul>
+                    <li>
+                        <span>Игры</span>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./images/icons/link_icon_1.webp" alt="">
+                            Minecraft
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./images/icons/link_icon_2.webp" alt="">
+                            Minecraft Dungeons
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./images/icons/link_icon_3.webp" alt="">
+                            Minecraft Legends
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./images/icons/link_icon_4.webp" alt="">
+                            Minecraft Education
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">Сообщество</a>
+                    </li>
+                    <li>
+                        <a href="#">Товары с символикой</a>
+                    </li>
+                    <li>
+                        <a href="#">Поддержка</a>
+                    </li>
+                    <li>
+                        <a href="#">Вход</a>
+                    </li>
+                    <li>
+                        <a href="#">Активация</a>
+                    </li>
+                    <li>
+                        <button class="header_btn open_modal">Получить Minecraft</button>
+                    </li>
+                </ul>
+            </div>
         </header>
         <!-- header -->
+
+        <!-- Modal -->
+        <div class="modal">
+            <div class="modal_bg"></div>
+            <div class="modal_content">
+                <button class="modal_close">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" fill="none">
+                        <g clip-path="url(#clip0_1_461)">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M24 0H28V4H24V0ZM20 8V4H24V8H20ZM16 12V8H20V12H16ZM16 16V12H12V8H8V4H4V0H0V4H4V8H8V12H12V16H8V20H4V24H0V28H4V24H8V20H12V16H16ZM20 20H16V16H20V20ZM24 24V20H20V24H24ZM24 24V28H28V24H24Z" fill="white"/>
+                        </g>
+                        <defs>
+                            <clipPath id="clip0_1_461">
+                                <rect width="28" height="28" fill="white"/>
+                            </clipPath>
+                        </defs>
+                    </svg>
+                </button>
+
+                <div class="content_wrap">
+                    <div class="content_left">
+                        <img src="./images/modal_card.png" class="main_img" alt="">
+                        <h2>Играй в игры Minecraft с Game Pass</h2>
+                        <div class="link_wrap">
+                            <div class="left_link">
+                                <img src="./images/icons/comp_icon.svg" alt="">
+                                <span>Windows/Mac/Linux*</span>
+                            </div>
+                            <a href="#">
+                                Купить <br>
+                                сейчас
+                                <svg xmlns="http://www.w3.org/2000/svg" width="3" height="14" viewBox="0 0 3 14" fill="none">
+                                    <g clip-path="url(#clip0_1_386)">
+                                        <path d="M2.01782 6.48828V7.51172H2.53032V6.48828H2.01782Z" fill="white"/>
+                                        <path d="M1.50513 5.46484V6.48828H2.01763V5.46484H1.50513Z" fill="white"/>
+                                        <path d="M0.992676 4.44141V5.46484H1.50518V4.44141H0.992676Z" fill="white"/>
+                                        <path d="M0.480225 3.41797V4.44141H0.992725V3.41797H0.480225Z" fill="white"/>
+                                        <path d="M1.50513 7.51172V8.53516H2.01763V7.51172H1.50513Z" fill="white"/>
+                                        <path d="M0.992676 8.53516V9.55859H1.50518V8.53516H0.992676Z" fill="white"/>
+                                        <path d="M0.480225 9.55859V10.582H0.992725V9.55859H0.480225Z" fill="white"/>
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_1_386">
+                                            <rect width="2.05" height="14" fill="white" transform="translate(0.480225)"/>
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="content_right">
+                        <h2>ТАКЖЕ ДОСТУПНО НА:</h2>
+                        <div class="subtitle">В Minecraft можно играть на следующих платформах:</div>
+                        <ul class="link_list">
+                            <li>
+                                <a href="#">
+                                    <img src="./images/icons/link_list_icon_1.svg" alt="">
+                                    <span>Xbox</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="8" height="8" viewBox="0 0 8 8" fill="none">
+                                        <g clip-path="url(#clip0_1_405)">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M7.52002 0.280029H1.52002V2.28003H5.52002V6.28003H7.52002V2.28003V0.280029ZM2.52002 3.28003H4.52002V5.28003H2.52002V3.28003ZM2.52002 5.28003V7.28003H0.52002V5.28003H2.52002Z" fill="#ABA09C"/>
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_1_405">
+                                                <rect width="7" height="7" fill="white" transform="translate(0.52002 0.280029)"/>
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                </a>
+                                <a href="#">
+                                    <img src="./images/icons/link_list_icon_2.svg" alt="">
+                                    <span>Amazon Fire</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="8" height="8" viewBox="0 0 8 8" fill="none">
+                                        <g clip-path="url(#clip0_1_405)">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M7.52002 0.280029H1.52002V2.28003H5.52002V6.28003H7.52002V2.28003V0.280029ZM2.52002 3.28003H4.52002V5.28003H2.52002V3.28003ZM2.52002 5.28003V7.28003H0.52002V5.28003H2.52002Z" fill="#ABA09C"/>
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_1_405">
+                                                <rect width="7" height="7" fill="white" transform="translate(0.52002 0.280029)"/>
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="./images/icons/link_list_icon_3.svg" alt="">
+                                    <span>PlayStation</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="8" height="8" viewBox="0 0 8 8" fill="none">
+                                        <g clip-path="url(#clip0_1_405)">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M7.52002 0.280029H1.52002V2.28003H5.52002V6.28003H7.52002V2.28003V0.280029ZM2.52002 3.28003H4.52002V5.28003H2.52002V3.28003ZM2.52002 5.28003V7.28003H0.52002V5.28003H2.52002Z" fill="#ABA09C"/>
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_1_405">
+                                                <rect width="7" height="7" fill="white" transform="translate(0.52002 0.280029)"/>
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                </a>
+                                <a href="#">
+                                    <img src="./images/icons/link_list_icon_4.svg" alt="">
+                                    <span>iOS</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="8" height="8" viewBox="0 0 8 8" fill="none">
+                                        <g clip-path="url(#clip0_1_405)">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M7.52002 0.280029H1.52002V2.28003H5.52002V6.28003H7.52002V2.28003V0.280029ZM2.52002 3.28003H4.52002V5.28003H2.52002V3.28003ZM2.52002 5.28003V7.28003H0.52002V5.28003H2.52002Z" fill="#ABA09C"/>
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_1_405">
+                                                <rect width="7" height="7" fill="white" transform="translate(0.52002 0.280029)"/>
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="./images/icons/link_list_icon_5.svg" alt="">
+                                    <span>Nintendo</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="8" height="8" viewBox="0 0 8 8" fill="none">
+                                        <g clip-path="url(#clip0_1_405)">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M7.52002 0.280029H1.52002V2.28003H5.52002V6.28003H7.52002V2.28003V0.280029ZM2.52002 3.28003H4.52002V5.28003H2.52002V3.28003ZM2.52002 5.28003V7.28003H0.52002V5.28003H2.52002Z" fill="#ABA09C"/>
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_1_405">
+                                                <rect width="7" height="7" fill="white" transform="translate(0.52002 0.280029)"/>
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                </a>
+                                <a href="#">
+                                    <img src="./images/icons/link_list_icon_6.svg" alt="">
+                                    <span>Android</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="8" height="8" viewBox="0 0 8 8" fill="none">
+                                        <g clip-path="url(#clip0_1_405)">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M7.52002 0.280029H1.52002V2.28003H5.52002V6.28003H7.52002V2.28003V0.280029ZM2.52002 3.28003H4.52002V5.28003H2.52002V3.28003ZM2.52002 5.28003V7.28003H0.52002V5.28003H2.52002Z" fill="#ABA09C"/>
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_1_405">
+                                                <rect width="7" height="7" fill="white" transform="translate(0.52002 0.280029)"/>
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="./images/icons/link_list_icon_7.svg" alt="">
+                                    <span>Chromebook</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="8" height="8" viewBox="0 0 8 8" fill="none">
+                                        <g clip-path="url(#clip0_1_405)">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M7.52002 0.280029H1.52002V2.28003H5.52002V6.28003H7.52002V2.28003V0.280029ZM2.52002 3.28003H4.52002V5.28003H2.52002V3.28003ZM2.52002 5.28003V7.28003H0.52002V5.28003H2.52002Z" fill="#ABA09C"/>
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_1_405">
+                                                <rect width="7" height="7" fill="white" transform="translate(0.52002 0.280029)"/>
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <p class="description">
+                    * Версии для Mac и Linux совместимы только с версией Java Edition.
+                </p>
+            </div>
+        </div>
+        <!-- Modal end -->
 
         <!-- Home -->
         <section class="home">
