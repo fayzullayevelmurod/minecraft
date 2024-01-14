@@ -37,13 +37,12 @@
     }
 
     &__bottom {
-        padding: 21.5px 0;
-        height: 82px;
         position: relative;
         background: #171615;
         z-index: 4;
-
+        
         .main_container {
+            height: 82px;
             display: flex;
             align-items: center;
             justify-content: space-between;
@@ -86,6 +85,10 @@
             }
 
             li {
+                .game_icon {
+                    width: 10px;
+                }
+
                 &:hover {
                     .dropdown_list {
                         height: 180px;
@@ -93,6 +96,13 @@
 
                     a {
                         color: #A0E080;
+                    }
+
+                    .game_icon {
+                        path {
+                            fill: #3C8527;
+                        }
+                        transform: rotate(180deg);
                     }
                 }
             }
@@ -123,10 +133,12 @@
                     padding: 0 12px 0 10px;
     
                     &:hover {
+
                         color: #000 !important;
                         background-color: #a0e080;
                         text-decoration: none;
                     }
+
                 }
             }
 
@@ -228,7 +240,6 @@
         position: fixed;
         left: 0;
         top: 0;
-        z-index: 3;
         width: 100%;
     }
 }

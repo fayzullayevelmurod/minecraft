@@ -70,3 +70,11 @@ let header_mobile = document.querySelector('.header__mobile');
 bars.onclick = () => {
     header_mobile.classList.toggle('active');
 }
+
+
+let lang_btn = document.querySelector('.footer_bottom_end .lang_btn');
+let footer_lang = document.querySelector('.footer_lang');
+lang_btn.onclick = () => {
+    lang_btn.classList.toggle('active');
+    footer_lang.classList.toggle('active');
+}
