@@ -645,13 +645,39 @@ address {
         @include flex-full-center();
         gap: 24px;
 
+        a {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background-color: #262423FF;
+        }
+
         .one {
             &:hover {
-                svg {
-                    path {
-                        fill: #000;
-                    }
-                }
+                background-color: #FA0020FF;
+            }
+        }
+
+        .two {
+            &:hover {
+                background-color: #F1437AFF;
+            }
+        }
+
+        .three {
+            &:hover {
+                background-color: #046AE4FF;
+            }
+        }
+
+        .four {
+            &:hover {
+                background-color: #1891EEFF;
+            }
+        }
+        .five {
+            &:hover {
+                background-color: #FF3C00FF;
             }
         }
     }

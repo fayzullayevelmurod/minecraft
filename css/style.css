@@ -528,8 +528,26 @@ address {
   justify-content: center;
   gap: 24px;
 }
-#social_media .social_media_link .one:hover svg path {
-  fill: #000;
+#social_media .social_media_link a {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #262423;
+}
+#social_media .social_media_link .one:hover {
+  background-color: #fa0020;
+}
+#social_media .social_media_link .two:hover {
+  background-color: #f1437a;
+}
+#social_media .social_media_link .three:hover {
+  background-color: #046ae4;
+}
+#social_media .social_media_link .four:hover {
+  background-color: #1891ee;
+}
+#social_media .social_media_link .five:hover {
+  background-color: #ff3c00;
 }
 
 footer {
